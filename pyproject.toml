@@ -1,0 +1,23 @@
+[tool.pdm]
+
+[project]
+name = "apidbot"
+version = "0.0.0"
+description = ""
+authors = [
+    {name = "Arwichok", email = "me@arwi.dev"},
+]
+dependencies = [
+    "aiogram>=3.0.0b7",
+    "environs>=9.5.0",
+    "setuptools>=67.4.0",
+    "black>=23.1.0",
+    "commonmark>=0.9.1",
+]
+requires-python = ">=3.10"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-pep517>=1.0"]
+build-backend = "pdm.pep517.api"
