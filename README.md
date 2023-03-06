@@ -1,7 +1,8 @@
 # apidbot
 
-To run: 
+Build and run docker file with .env file
 
-```sh
-python -m apidbot
+
+```env
+TELEGRAM_BOT_TOKEN=123:secret
 ```
